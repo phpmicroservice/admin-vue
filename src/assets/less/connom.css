@@ -1,0 +1,20 @@
+h2.title {
+  font-size: 22px;
+  margin: 10px 0;
+  text-align: center;
+}
+.table {
+  margin: 10px 0;
+}
+.lv-catalog {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
