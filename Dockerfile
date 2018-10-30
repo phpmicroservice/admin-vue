@@ -16,11 +16,11 @@ RUN cnpm install
 # 进行文件复制和环境变量初始化
 COPY . /home/
 WORKDIR /home/
-ENV APP_BASE_URL=http://ykm.toplink.com
-ENV APP_SITE_URL=http://ykm.toplink.com
-ENV APP_SHARE_URL=http://ykm.toplink.com
+ENV APP_BASE_URL=http://demo01.xingshuwangluo.com
+ENV APP_SITE_URL=http://demo01.xingshuwangluo.com
+ENV APP_SHARE_URL=http://demo01.xingshuwangluo.com
 ENV APP_SCOKET_URL=ws://192.168.1.220:34504/
-ENV APP_DOWNLOAD_URL=http://ykm.toplink.com
-ENV APP_VALIDATION_URL=http://ykm.toplink.com
+ENV APP_DOWNLOAD_URL=http://demo01.xingshuwangluo.com
+ENV APP_VALIDATION_URL=http://demo01.xingshuwangluo.com
 WORKDIR /home/
 CMD npm run build

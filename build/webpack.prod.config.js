@@ -26,9 +26,9 @@ function get_env(name, de = '') {
 }
 
 
-const APP_BASE_URL = get_env('APP_BASE_URL', 'http://ykm.toplink.com'); //api的请求地址
-const APP_SITE_URL = get_env('APP_SITE_URL', 'http://ykm.toplink.com'); //附件的请求地址
-const APP_SHARE_URL = get_env('APP_SHARE_URL', 'http://ykm.hbz.2xso.com'); //web版本的地址
+const APP_BASE_URL = get_env('APP_BASE_URL', 'http://demo01.xingshuwangluo.com'); //api的请求地址
+const APP_SITE_URL = get_env('APP_SITE_URL', 'http://demo01.xingshuwangluo.com'); //附件的请求地址
+const APP_SHARE_URL = get_env('APP_SHARE_URL', 'http://demo01.hbz.2xso.com'); //web版本的地址
 const APP_SCOKET_URL = get_env('APP_SCOKET_URL', 'ws://192.168.1.220:34504/'); //web版本的地址
 const APP_DOWNLOAD_URL = get_env('APP_DOWNLOAD_URL', 'http://wgjappd.s115.psd1412.com'); //apk下载地址
 const APP_VALIDATION_URL = get_env('APP_VALIDATION_URL', 'http://wgjappd.s115.psd1412.com'); //
